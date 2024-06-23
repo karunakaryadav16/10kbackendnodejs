@@ -3,7 +3,7 @@ import mysql from 'mysql';
 import cors from "cors"
 
 const app = express();
-const port = 3005;
+const port = 3006;
 app.use(express.json())
 app.use(cors())
 
